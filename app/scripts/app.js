@@ -30,6 +30,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/modal/demo', {
+        templateUrl: 'views/modaldemo.html',
+        controller: 'ModaldemoCtrl',
+        controllerAs: 'modalDemo'
+      })
       .otherwise({
         redirectTo: '/'
       });
