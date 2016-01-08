@@ -1,11 +1,12 @@
 # uiexample
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+This project is in NodeJs. This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1. 
 
 ## Build & development
+Please run `bower install && npm install` if you are running this for first time to install bower and node modules.
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt serve` for preview and `grunt` for building.
 
 ## Testing
 
